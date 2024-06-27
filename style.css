@@ -66,7 +66,7 @@ button:hover{
     border-radius: 5px;
 }
 .hero_content h1{
-    font-size: 70px;
+    font-size: 60px;
     line-height: 1.2;
     font-weight: 550;
 }
@@ -75,14 +75,14 @@ button:hover{
     color: white;
     border-radius: 5px;
 }
-.tag1{
+.tag{
     background: #149f39;
     padding: 5px 10px;
     color: white;
-    align-self: flex-start;
+    /* align-self: flex-start; */
     border-radius: 5px;
     font-size: 18px;
-    align-self: center;
+    /* align-self: center; */
     margin: 15px 0;
 }
 .explore_btn:hover{
@@ -230,6 +230,7 @@ footer{
     }
     .hero_content h1{
         font-size: 50px;
+        text-align: center;
     }
     .explore_btn{
         font-size: 25px;
