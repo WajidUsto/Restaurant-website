@@ -33,6 +33,7 @@ nav{
 }
 .bar_icon{
     font-size: 25px;
+    cursor: pointer;
 }
 .hero{
     display: flex;
@@ -58,6 +59,9 @@ button:hover{
     transition: 0.5s ease-in-out;
     color: white;
 }
+.logo_container{
+    padding-left: 10px;
+}
 .tag{
     background: #149f39;
     padding: 5px 10px;
@@ -74,6 +78,7 @@ button:hover{
     background: #149f39;
     color: white;
     border-radius: 5px;
+    cursor: pointer;
 }
 .tag{
     background: #149f39;
@@ -84,11 +89,11 @@ button:hover{
     font-size: 18px;
     /* align-self: center; */
     margin: 15px 0;
+    cursor: pointer;
 }
 .explore_btn:hover{
-    background-color: rgba(0, 211, 88, 0.808);
+    background-color: rgba(3, 56, 25, 0.918);
     transition: 0.5s ease-in-out;
-    /* color: gray; */
 }
 .features{
     margin-top: 100px;
@@ -99,9 +104,16 @@ button:hover{
 }
 .feature{
     display: flex;
+    justify-content: center;
     gap: 10px;
     transition: 0.5s ease-in-out;
     padding: 10px;
+}
+.feature h3{
+    align-items: center;
+}
+.feature_content{
+    text-align: center;
 }
 .feature:hover{
     box-shadow: 3px 3px 3px rgba(1, 1, 1, 0.171);
@@ -110,10 +122,6 @@ button:hover{
 .divider{
     border: 1px solid #ccc;
     margin: 20px 0px;
-}
-h3{
-    display: flex;
-    align-items: center;
 }
 .menu{
     display: flex;
@@ -276,7 +284,12 @@ footer{
     }
     
 }
-
+@media (max-width: 479px) {
+    .feature{
+        flex-wrap: wrap;
+        
+    }
+}
 
 
 
